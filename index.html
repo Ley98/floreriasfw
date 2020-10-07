@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+	<title>Proyecto</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
+
+	
+    <!-- Estilos de letras-->
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+	<link href = "https://fonts.googleapis.com/css2? family = Lobster + Two & display = swap" rel = "stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+	
+
+	<!-- Estilos del carrusel-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!--Carrusel-->
+<style>
+	body{
+		background: #D6EAF8;
+	}
+    .carousel-item{
+        min-height: 400px;
+        width: 100%;
+        height: 500px;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+ 		 -o-background-size: cover;
+  		background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 280px;
+  }
+    }
+    
+</style>
+	
+</head>
+<body >
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#form1"><span class="fa fa-heart"></span><span class="tab-text">Dedicatoria</span></a></li>
+			
+			<li><a href="#car1"><span class="fa fa-image"></span><span class="tab-text">Galeria</span></a></li>
+			<li><a href="#tab1"><span class="fa  fa-pagelines"></span><span class="tab-text">Flores</span></a></li>
+			<li><a href="#mod1"><span class="fa fa-star"></span><span class="tab-text">Gracias</span></a></li>		
+		</ul>
+
+		<div class="secciones">
+
+			<!-- Formulario-->
+
+			<article id="form1">
+			<section class="form-register">
+				<h4>Florería "Sunflower"</h4>
+				<input class="controls" type="text" name="nombre" id="nombre" placeholder="De:">
+				<input class="controls" type="text" name="" id="" placeholder="Para:">
+				<textarea class="controls" name="" rows="10" cols="40" placeholder="Dedicatoria: "></textarea>
+				<input class="controls" type="text" name="" id="" placeholder="Dirección">
+				<button type="button" class="btn btn-info">             
+				Aceptar
+				</button>
+			</section>
+			</article>
+
+			<!--Tabla-->
+
+			<article id="tab1">
+				<div class="table-responsive">
+				<table class="table table-bordered table-secondary"  >
+  					<thead class="table-info">
+    					<tr>
+      						<th scope="col">#</th>
+      						<th scope="col"><span class="fa fa-snowflake-o"></span> Nombre</th>
+      						<th scope="col"><span class="fa fa-usd"></span> Precio</th>
+      						<th scope="col"><span class="fa fa-gift"></span> Detalles</th>
+    					</tr>
+ 					 </thead>
+  					 <tbody>
+    					<tr>
+      						<th scope="row">1</th>
+      						<td>Rosa</td>
+      						<td>$230</td>
+      						<td>Arreglo de rosas, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">2</th>
+      						<td>Gerbera</td>
+      						<td>$150</td>
+      						<td>Arreglo de gerbera, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">3</th>
+      						<td>Girasol</td>
+      						<td>$200</td>
+      						<td>Arreglo de girasoles, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">4</th>
+      						<td>Orquídea</td>
+      						<td>$300</td>
+      						<td>Arreglo de Orquídea, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">5</th>
+      						<td>Clavels</td>
+      						<td>$250</td>
+      						<td>Arreglo de claveles, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">6</th>
+      						<td>Iris</td>
+      						<td>$385</td>
+      						<td>Arreglo de iris, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">7</th>
+      						<td>Tulipan</td>
+      						<td>$200</td>
+      						<td>Arreglo de tulipanes, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">8</th>
+      						<td>Lirio</td>
+      						<td>$320</td>
+      						<td>Arreglo de lirios, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+
+    					<tr>
+      						<th scope="row">9</th>
+      						<td>Rosas</td>
+      						<td>$230</td>
+      						<td>Arreglo de rosas, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">10</th>
+      						<td>Gerbera</td>
+      						<td>$150</td>
+      						<td>Arreglo de gerbera, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">11</th>
+      						<td>Clavel</td>
+      						<td>$180</td>
+      						<td>Arreglo de claveles, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					<tr>
+      						<th scope="row">12</th>
+      						<td>Hortensia</td>
+      						<td>$210</td>
+      						<td>Arreglo de hortensias, colores, presentación y flores de relleno a escoger</td>
+    					</tr>
+    					
+  					</tbody>
+				</table>
+				</div>
+			</article>
+
+			<!--Carrusel-->
+
+			<article id="car1">
+				<div id="carouselExampleIndicators" class="carousel slide card" data-ride="carousel">
+        			<ol class="carousel-indicators">
+          				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          				
+          			</ol>
+        		<div class="carousel-inner">
+          			<div class="carousel-item active" style="background-image: url(a1.jpg);">
+          				<div class="carousel-caption d-none d-md-block">
+   							
+ 						 </div>
+          			</div>
+          			<div class="carousel-item" style="background-image: url(a2.jpg);">
+          				<div class="carousel-caption d-none d-md-block">
+    						
+   							
+ 						 </div>
+					</div>
+          			<div class="carousel-item" style="background-image: url(a3.jpg);">
+          				<div class="carousel-caption d-none d-md-block">
+    						
+   							
+ 						 </div>
+					</div>
+					<div class="carousel-item " style="background-image: url(a4.jpg);">
+						<div class="carousel-caption d-none d-md-block">
+    						
+   							
+ 						 </div>
+          			</div>
+          			<div class="carousel-item" style="background-image: url(a5.jpg);">
+          				
+   							
+ 					</div>
+				</div>
+          					
+        		</div>
+        			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          				<span class="sr-only">Anterior</span>
+        			</a>
+        			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+          				<span class="sr-only">Siguiente</span>
+        			</a>
+				
+			</article>
+
+			<!--modal-->
+
+			<article id="mod1">
+				<div class="secciones-m">
+					<p style="font-size: 25px; color: black">
+						Hola gracias por visitar nuestra pagina floral, esperamos que hayas encontrado lo que buscabas para sorprender a tu persona favorita, si deseas más información acerca de nuestros productos no dudes en escribir a nuestra pagina oficial de facebook.
+						Floreria "Sunflower"
+					</p>				
+				</div>
+				
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#miModal" class="btn btn-outline-success">
+					"Sunflower"
+				</button>
+				<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"class="btn btn-outline-warning">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title" id="myModalLabel">...</h4>
+							</div>
+								<div class="modal-body">
+									<p style="font-family: 'Quicksand', sans-serif;">
+										El girasol es el símbolo del Sol, simboliza  amor y la admiración. Pero también la felicidad, la vitalidad, el positivismo y la energía. En la cultura china simboliza una larga vida y buena suerte.	
+									</p>	
+								</div>
+						</div>
+					</div>
+				</div>	
+			</article>
+		</div>
+	</div>
+</body>
+</html>
